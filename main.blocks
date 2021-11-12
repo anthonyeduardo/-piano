@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id=";)~s]eyp1Y(Z.6od`HIJ" x="0" y="0"><statement name="HANDLER"><block type="playMelody" id=";5aXV,vK2;L%_QNsE$Mx"><value name="melody"><shadow type="melody_editor" id="c[2wgtg%W]d8r:@x:pXc"><field name="melody">"C D E F - F - F "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="8]j]Qvs7x7{oQYMs(avv"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">200</field></shadow></value><next><block type="device_print_message" id="NAgo!|(5FI9Za3{V1Ysj"><value name="text"><shadow type="text" id="mh4amWDgbWXj(pBNAVo="><field name="TEXT">Piano</field></shadow></value></block></next></block></statement></block><block type="device_pin_event" id="]LRdfZ2;_f:N$Pb=40b6" x="260" y="135"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="playMelody" id="Wpi_@.V1I;kwU,lAyiCU"><value name="melody"><shadow type="melody_editor" id="kKZ]%W,A~(}MftX.D!6?"><field name="melody">"- - E - - - - - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="o@Ch^;`!_y68J2b$/vkH"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="aR+Gp|kRHBFUtW5^zVkq"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_pin_event" id="J35,/Eiw!S/j+($j]o0:" x="51" y="155"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="playMelody" id="**w90;WP9e]MV)RuH4u#"><value name="melody"><shadow type="melody_editor" id="3gsgp6#/u)XwXUvJsfuD"><field name="melody">"C - - - - - - - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="9#b}Az_#L/pm(j2,V$[#"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="d^pvyNfeaGYM}YJ^tC]V"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . .
+        `</field></block></next></block></statement></block><block type="device_pin_event" id="~P,P]iz*hhj`LKop+.Fc" x="506" y="146"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="playMelody" id="u_.n(xwdI}fagNu{#s0X"><value name="melody"><shadow type="melody_editor" id="^q~b5EbChHRSzY[tRNn("><field name="melody">"- D - - - - - - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="5D*zv-HqZ$4@p4QdYp_l"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="J9s1W[4pAUBH3wEonGei"><field name="LEDS">`
+        . . . . # 
+        . . . . # 
+        . . . . # 
+        . . . . # 
+        . . . . #
+        `</field></block></next></block></statement></block></xml>
